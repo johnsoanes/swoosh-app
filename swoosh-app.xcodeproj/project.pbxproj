@@ -56,9 +56,10 @@
 		413935FE1F37A0DC00F52B48 /* swoosh-app */ = {
 			isa = PBXGroup;
 			children = (
-				413936121F37AA4F00F52B48 /* views */,
+				41999CFB1F39048E0027442C /* Model */,
+				41999CFA1F3904830027442C /* Controller */,
+				413936121F37AA4F00F52B48 /* View */,
 				413935FF1F37A0DC00F52B48 /* AppDelegate.swift */,
-				413936011F37A0DC00F52B48 /* ViewController.swift */,
 				413936031F37A0DC00F52B48 /* Main.storyboard */,
 				413936061F37A0DC00F52B48 /* Assets.xcassets */,
 				413936081F37A0DC00F52B48 /* LaunchScreen.storyboard */,
@@ -67,12 +68,27 @@
 			path = "swoosh-app";
 			sourceTree = "<group>";
 		};
-		413936121F37AA4F00F52B48 /* views */ = {
+		413936121F37AA4F00F52B48 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				413936131F37AAE900F52B48 /* BorderButton.swift */,
 			);
-			path = views;
+			path = View;
+			sourceTree = "<group>";
+		};
+		41999CFA1F3904830027442C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				413936011F37A0DC00F52B48 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41999CFB1F39048E0027442C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +344,7 @@
 				413936101F37A0DC00F52B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
