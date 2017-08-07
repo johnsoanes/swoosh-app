@@ -12,6 +12,7 @@
 		413936051F37A0DC00F52B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413936031F37A0DC00F52B48 /* Main.storyboard */; };
 		413936071F37A0DC00F52B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413936061F37A0DC00F52B48 /* Assets.xcassets */; };
 		4139360A1F37A0DC00F52B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413936081F37A0DC00F52B48 /* LaunchScreen.storyboard */; };
+		413936141F37AAE900F52B48 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413936131F37AAE900F52B48 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		413936061F37A0DC00F52B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		413936091F37A0DC00F52B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4139360B1F37A0DC00F52B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413936131F37AAE900F52B48 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		413935FE1F37A0DC00F52B48 /* swoosh-app */ = {
 			isa = PBXGroup;
 			children = (
+				413936121F37AA4F00F52B48 /* views */,
 				413935FF1F37A0DC00F52B48 /* AppDelegate.swift */,
 				413936011F37A0DC00F52B48 /* ViewController.swift */,
 				413936031F37A0DC00F52B48 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4139360B1F37A0DC00F52B48 /* Info.plist */,
 			);
 			path = "swoosh-app";
+			sourceTree = "<group>";
+		};
+		413936121F37AA4F00F52B48 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				413936131F37AAE900F52B48 /* BorderButton.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				413936021F37A0DC00F52B48 /* ViewController.swift in Sources */,
 				413936001F37A0DC00F52B48 /* AppDelegate.swift in Sources */,
+				413936141F37AAE900F52B48 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
